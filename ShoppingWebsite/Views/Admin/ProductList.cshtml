@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ShoppingWebsite.Models.Product>
+
+<h2>Danh sách sản phẩm</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Hình ảnh</th>
+            <th>Giá</th>
+            <th>Màu</th>
+            <th>Kích thước</th>
+            <th>Danh mục</th>
+            <th>Mô tả</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>
+                    <img src="@product.Image" alt="@product.Name" style="width:100px;" />
+                </td>
+                <td>@product.Price.ToString("C")</td>
+                <td>@product.Color</td>
+                <td>@product.Size</td>
+                <td>@product.CategoryId</td>
+                <td>@product.Description</td>
+                <td>
+                    <a class="btn btn-warning" asp-action="EditProduct" asp-route-id="@product.Id">Chỉnh sửa</a>
+                    <a class="btn btn-danger" asp-action="DeleteProduct" asp-route-id="@product.Id">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="btn btn-primary" asp-action="CreateProduct">Thêm sản phẩm</a>

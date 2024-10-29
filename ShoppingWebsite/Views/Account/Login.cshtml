@@ -1,0 +1,18 @@
+﻿@model ShoppingWebsite.Models.Customer
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h2 class="text-center">Đăng nhập</h2>
+<div class="login-form">
+    <form asp-action="Login" method="post">
+        <input asp-for="Username" placeholder="Tài khoản" />
+        <input asp-for="Password" type="password" placeholder="Mật khẩu" />
+        <button type="submit">Đăng nhập</button>
+    </form>
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+</div>

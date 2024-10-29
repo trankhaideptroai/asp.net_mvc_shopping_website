@@ -1,0 +1,140 @@
+﻿@model List<CartItem>
+
+<h1 class="cart-title">Giỏ hàng </h1>
+
+<table class="table table-striped cart-table">
+    <thead>
+        <tr>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Tổng</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="row-for-product-@item.ProductId">
+                <td>@item.Name</td>
+                <td>@item.Price.ToString("C")</td> <!-- Display price as currency -->
+                <td>
+                    <input class="quantity-input" type="number" value="@item.Quantity" min="1" onchange="updateCart(@item.ProductId, this.value)" />
+                </td>
+                <td class="total-price">@((item.Price * item.Quantity).ToString("C"))</td> <!-- Display total as currency -->
+                <td>
+                    <button class="btn btn-danger remove-btn" onclick="removeFromCart(@item.ProductId)">Xoá sản phẩm</button>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Display total price -->
+<p class="cart-total">Tổng Tiền: @Model.Sum(item => item.Price * item.Quantity).ToString("C")</p>
+
+<!-- Checkout button -->
+<!-- Checkout button -->
+<form asp-action="Checkout" method="post">
+    <button type="submit" class="btn btn-success checkout-btn">Đặt hàng</button>
+</form>
+
+
+<!-- Script to update or remove cart items using AJAX -->
+<script>
+    function updateCart(productId, quantity) {
+        $.ajax({
+            url: '@Url.Action("UpdateCart", "Cart")',
+            type: 'POST',
+            data: { productId: productId, quantity: quantity },
+            success: function (response) {
+                location.reload(); // You can also dynamically update the UI here instead of reloading
+            }
+        });
+    }
+
+    function removeFromCart(productId) {
+        $.ajax({
+            url: '@Url.Action("RemoveFromCart", "Cart")',
+            type: 'POST',
+            data: { productId: productId },
+            success: function (response) {
+                location.reload(); // You can also dynamically update the UI here instead of reloading
+            }
+        });
+    }
+</script>
+<script>
+    function removeFromCart(productId) {
+        $.ajax({
+            url: '@Url.Action("RemoveFromCart", "Cart")',
+            type: 'POST',
+            data: { productId: productId },
+            success: function (response) {
+                location.reload(); // Reload the page to reflect the updated cart
+            }
+        });
+    }
+</script>
+
+<style>
+    .cart-title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2em;
+    }
+
+    .cart-table {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .cart-table th, .cart-table td {
+        padding: 15px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .cart-table th {
+        background-color: #f8f9fa;
+        font-weight: bold;
+    }
+
+    .quantity-input {
+        width: 60px;
+        text-align: center;
+    }
+
+    .remove-btn {
+        padding: 5px 10px;
+        font-size: 0.9em;
+    }
+
+    .cart-total {
+        text-align: right;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .checkout-btn {
+        display: block;
+        width: 200px;
+        margin: 20px auto;
+        padding: 10px 20px;
+        font-size: 1.2em;
+    }
+
+    /* Optional: Add hover effects */
+    .checkout-btn:hover {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .remove-btn:hover {
+        background-color: #dc3545;
+        color: white;
+    }
+</style>

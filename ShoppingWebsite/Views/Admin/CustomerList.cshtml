@@ -1,0 +1,34 @@
+﻿@model IEnumerable<ShoppingWebsite.Models.Customer>
+
+<h2>Danh sách khách hàng</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Họ và tên</th>
+            <th>Email</th>
+            <th>Địa chỉ</th>
+            <th>Số điện thoại</th>
+            <th>Vai trò</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model)
+        {
+            <tr>
+                <td>@customer.FullName</td>
+                <td>@customer.Email</td>
+                <td>@customer.Address</td>
+                <td>@customer.Phone</td>
+                <td>@customer.Role</td>
+                <td>
+                    <a class="btn btn-warning" asp-action="EditCustomer" asp-route-id="@customer.Id">Chỉnh sửa</a>
+                    <a class="btn btn-danger" asp-action="DeleteCustomer" asp-route-id="@customer.Id">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="btn btn-primary" asp-action="CreateCustomer">Thêm khách hàng</a>
+            

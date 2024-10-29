@@ -1,0 +1,44 @@
+﻿@model IEnumerable<ShoppingWebsite.Models.Product>
+@{
+    var username = Context.Request.Cookies["Username"]; // Thay Request bằng Context.Request
+}
+@if (!string.IsNullOrEmpty(username))
+{
+    <div>
+        <h3>Chào @username!</h3>
+        <button id="logoutButton" class="btn btn-danger">Đăng Xuất</button>
+    </div>
+}
+@section Scripts {
+    <script>
+        document.getElementById("logoutButton").onclick = function () {
+            // Gửi yêu cầu đăng xuất đến controller
+            fetch('/Account/Logout', { method: 'POST' })
+                .then(response => {
+                    if (response.redirected) {
+                        window.location.href = response.url;
+                    }
+                });
+        };
+    </script>
+}
+<h1>Sản phẩm</h1>
+<form>
+    <input type="text" name="searchString" placeholder="Tìm kiếm..." />
+    <button type="submit">Tìm kiếm</button>
+</form>
+
+<ul>
+    @foreach (var product in Model)
+    {
+        <li>
+            <a asp-action="Details" asp-route-id="@product.Id">@product.Name</a>
+            <img src="@product.Image" alt="@product.Name" />
+            <span>Giá: @product.Price VND</span>
+        </li>
+    }
+</ul>
+
+<footer>
+    <p>© 2024 Your Website. All rights reserved.</p>
+</footer>
