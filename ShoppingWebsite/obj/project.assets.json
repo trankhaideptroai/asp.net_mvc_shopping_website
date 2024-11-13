@@ -4089,11 +4089,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TranKhai\\Documents\\ShoppingWebsite_ASM_C#3_TranTanKhai_PS40102\\ShoppingWebsite\\ShoppingWebsite.csproj",
+      "projectUniqueName": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\ShoppingWebsite.csproj",
       "projectName": "ShoppingWebsite",
-      "projectPath": "C:\\Users\\TranKhai\\Documents\\ShoppingWebsite_ASM_C#3_TranTanKhai_PS40102\\ShoppingWebsite\\ShoppingWebsite.csproj",
+      "projectPath": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\ShoppingWebsite.csproj",
       "packagesPath": "C:\\Users\\TranKhai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TranKhai\\Documents\\ShoppingWebsite_ASM_C#3_TranTanKhai_PS40102\\ShoppingWebsite\\obj\\",
+      "outputPath": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TranKhai\\AppData\\Roaming\\NuGet\\NuGet.Config",

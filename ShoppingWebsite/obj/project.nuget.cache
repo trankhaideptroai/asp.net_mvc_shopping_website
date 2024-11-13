@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W27HQo10JMk=",
+  "dgSpecHash": "McdwGv3MiHg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TranKhai\\Documents\\ShoppingWebsite_ASM_C#3_TranTanKhai_PS40102\\ShoppingWebsite\\ShoppingWebsite.csproj",
+  "projectFilePath": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\ShoppingWebsite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TranKhai\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\TranKhai\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

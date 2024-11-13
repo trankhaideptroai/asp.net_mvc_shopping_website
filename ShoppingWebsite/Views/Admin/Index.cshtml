@@ -72,4 +72,97 @@
         }
     </tbody>
 </table>
+<style>    /* General styling for the dashboard */
+    h1 {
+        text-align: center;
+        font-size: 32px;
+        color: #333;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
 
+    h2 {
+        font-size: 24px;
+        color: #007bff;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    /* Table styling */
+    .table {
+        width: 100%;
+        margin-top: 10px;
+        border-collapse: collapse;
+        font-size: 16px;
+    }
+
+        .table thead th {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .table tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .table td, .table th {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            vertical-align: middle;
+        }
+
+        /* Image styling */
+        .table img {
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+    /* Button styling */
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+        border-radius: 4px;
+        color: white;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+    .btn-warning {
+        background-color: #ffc107;
+        border: none;
+    }
+
+        .btn-warning:hover {
+            background-color: #e0a800;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border: none;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+        /* Confirmation message for delete buttons */
+        .btn-danger[onclick]:hover {
+            cursor: pointer;
+            color: white;
+        }
+</style>

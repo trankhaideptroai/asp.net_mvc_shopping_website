@@ -1,27 +1,5 @@
 ﻿@model IEnumerable<ShoppingWebsite.Models.Product>
-@{
-    var username = Context.Request.Cookies["Username"]; // Thay Request bằng Context.Request
-}
-@if (!string.IsNullOrEmpty(username))
-{
-    <div>
-        <h3>Chào @username!</h3>
-        <button id="logoutButton" class="btn btn-danger">Đăng Xuất</button>
-    </div>
-}
-@section Scripts {
-    <script>
-        document.getElementById("logoutButton").onclick = function () {
-            // Gửi yêu cầu đăng xuất đến controller
-            fetch('/Account/Logout', { method: 'POST' })
-                .then(response => {
-                    if (response.redirected) {
-                        window.location.href = response.url;
-                    }
-                });
-        };
-    </script>
-}
+
 <h1>Sản phẩm</h1>
 <form>
     <input type="text" name="searchString" placeholder="Tìm kiếm..." />

@@ -87,19 +87,14 @@ namespace ShoppingWebsite.Controllers
             TempData["ErrorMessage"] = "Đăng ký không thành công. Vui lòng kiểm tra lại.";
             return View(model);
         }
-
-        [HttpPost]
+        [HttpGet]
         public IActionResult Logout()
         {
-            // Xóa cookie
+            // Logic đăng xuất
             Response.Cookies.Delete("Username");
-
             // Xóa session
-            HttpContext.Session.Clear(); // Xóa tất cả thông tin trong session
-
-            return RedirectToAction("Login"); // Chuyển hướng đến trang đăng nhập
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Products");
         }
-
-
     }
 }

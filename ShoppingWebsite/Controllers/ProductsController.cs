@@ -21,12 +21,7 @@ namespace ShoppingWebsite.Controllers
 
 
             // Kiểm tra vai trò của người dùng
-            var role = HttpContext.Session.GetString("Role");
-            if (role == "Admin")
-            {
-                // Nếu là Admin, chuyển hướng đến trang Admin Index
-                return RedirectToAction("Index", "Admin");
-            }
+
 
             // Thiết lập số lượng sản phẩm trong giỏ hàng
             SetCartItemCount();
