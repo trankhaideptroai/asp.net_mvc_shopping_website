@@ -29,7 +29,7 @@ public class CartController : Controller
     {
         var product = _context.Products.Find(productId);
         if (product == null)
-        {
+        {                                                                                                                                                                                                                                           
             return NotFound();
         }
 
@@ -101,40 +101,40 @@ public class CartController : Controller
     [HttpPost]
     public IActionResult Checkout()
     {
-        // Kiểm tra xem người dùng đã đăng nhập chưa
+        // Check if the user is logged in
         var username = HttpContext.Session.GetString("Username");
         if (string.IsNullOrEmpty(username))
         {
-            return RedirectToAction("Login", "Account"); // Yêu cầu đăng nhập nếu chưa đăng nhập
+            return RedirectToAction("Login", "Account"); // Redirect to login if not logged in
         }
 
-        // Lấy thông tin khách hàng từ cơ sở dữ liệu
+        // Retrieve customer information from the database
         var customer = _context.Customers.SingleOrDefault(c => c.Username == username);
         if (customer == null)
         {
             return RedirectToAction("Login", "Account");
         }
 
-        // Lấy thông tin tổng tiền và chi tiết giỏ hàng
-        var cartItems = _context.CartItems.Where(ci => ci.Id == customer.Id).ToList();
-        decimal totalAmount = cartItems.Sum(ci => ci.Price * ci.Quantity);
+        // Get the current cart items from the session
+        var cart = GetCart();
+        decimal totalAmount = cart.Sum(ci => ci.Price * ci.Quantity);
 
-        // Tạo đơn hàng mới và lưu vào bảng Orders
+        // Create a new order
         var order = new Order
         {
             CustomerId = customer.Id,
             TotalAmount = totalAmount,
             OrderDate = DateTime.Now,
-            OrderStatus = "Pending", // Trạng thái mặc định là Chờ xử lý
-            Address = customer.Address, // Lấy địa chỉ từ thông tin khách hàng
-            Phone = customer.Phone      // Lấy số điện thoại từ thông tin khách hàng
+            OrderStatus = "Pending",
+            Address = customer.Address,
+            Phone = customer.Phone
         };
 
         _context.Orders.Add(order);
         _context.SaveChanges();
 
-        // Thêm chi tiết từng sản phẩm vào bảng OrderDetails nếu có
-        foreach (var item in cartItems)
+        // Add each cart item to the OrderDetails table
+        foreach (var item in cart)
         {
             var orderDetail = new OrderDetail
             {
@@ -148,13 +148,15 @@ public class CartController : Controller
 
         _context.SaveChanges();
 
-        // Xóa sản phẩm trong giỏ hàng sau khi đặt hàng
-        _context.CartItems.RemoveRange(cartItems);
+        // Clear the cart in the database if applicable and in the session
+        _context.CartItems.RemoveRange(_context.CartItems.Where(ci => ci.Id == customer.Id));
         _context.SaveChanges();
+        HttpContext.Session.Remove("Cart"); // Clear the session-based cart
 
         TempData["SuccessMessage"] = "Đặt hàng thành công!";
         return RedirectToAction("OrderSuccess");
     }
+
     [HttpPost]
     public IActionResult ConfirmOrder(Customer customer)
     {
