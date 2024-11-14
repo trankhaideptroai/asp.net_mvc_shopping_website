@@ -5,6 +5,8 @@ using ShoppingWebsite.Models;
 using System.Collections.Generic;
 using System.Linq;
 
+
+
 public class CartController : Controller
 {
     private readonly ApplicationDbContext _context;
@@ -41,7 +43,7 @@ public class CartController : Controller
             cart.Add(new CartItem
             {
                 ProductId = product.Id,
-                Name = product.Name,
+                ProductName = product.Name,
                 Price = product.Price,
                 Quantity = 1 // Initial quantity set to 1
             });
@@ -99,24 +101,59 @@ public class CartController : Controller
     [HttpPost]
     public IActionResult Checkout()
     {
-        // Giả định rằng bạn đã lưu Username trong session sau khi đăng nhập
+        // Kiểm tra xem người dùng đã đăng nhập chưa
         var username = HttpContext.Session.GetString("Username");
-
-        if (username == null)
+        if (string.IsNullOrEmpty(username))
         {
-            // Nếu không có thông tin người dùng, yêu cầu đăng nhập
-            return RedirectToAction("Login", "Account");
+            return RedirectToAction("Login", "Account"); // Yêu cầu đăng nhập nếu chưa đăng nhập
         }
 
         // Lấy thông tin khách hàng từ cơ sở dữ liệu
         var customer = _context.Customers.SingleOrDefault(c => c.Username == username);
         if (customer == null)
         {
-            return NotFound();
+            return RedirectToAction("Login", "Account");
         }
 
-        // Điều hướng đến trang checkout và truyền thông tin khách hàng
-        return View("Checkout", customer);
+        // Lấy thông tin tổng tiền và chi tiết giỏ hàng
+        var cartItems = _context.CartItems.Where(ci => ci.Id == customer.Id).ToList();
+        decimal totalAmount = cartItems.Sum(ci => ci.Price * ci.Quantity);
+
+        // Tạo đơn hàng mới và lưu vào bảng Orders
+        var order = new Order
+        {
+            CustomerId = customer.Id,
+            TotalAmount = totalAmount,
+            OrderDate = DateTime.Now,
+            OrderStatus = "Pending", // Trạng thái mặc định là Chờ xử lý
+            Address = customer.Address, // Lấy địa chỉ từ thông tin khách hàng
+            Phone = customer.Phone      // Lấy số điện thoại từ thông tin khách hàng
+        };
+
+        _context.Orders.Add(order);
+        _context.SaveChanges();
+
+        // Thêm chi tiết từng sản phẩm vào bảng OrderDetails nếu có
+        foreach (var item in cartItems)
+        {
+            var orderDetail = new OrderDetail
+            {
+                OrderId = order.OrderId,
+                ProductId = item.ProductId,
+                Quantity = item.Quantity,
+                Price = item.Price
+            };
+            _context.OrderDetails.Add(orderDetail);
+        }
+
+        _context.SaveChanges();
+
+        // Xóa sản phẩm trong giỏ hàng sau khi đặt hàng
+        _context.CartItems.RemoveRange(cartItems);
+        _context.SaveChanges();
+
+        TempData["SuccessMessage"] = "Đặt hàng thành công!";
+        return RedirectToAction("OrderSuccess");
     }
     [HttpPost]
     public IActionResult ConfirmOrder(Customer customer)

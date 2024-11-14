@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters; // Để sử dụng Action Filters
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using ShoppingWebsite.Data;
 using ShoppingWebsite.Models;
 using System.Linq;
@@ -179,6 +180,31 @@ namespace ShoppingWebsite.Controllers
                 _context.SaveChanges();
             }
             return RedirectToAction("Index");
+        }
+        public IActionResult OrderStatistics()
+        {
+            // Kiểm tra Role Admin
+            var role = HttpContext.Session.GetString("Role");
+            if (role == null || role.Trim() != "Admin")
+            {
+                return RedirectToAction("Index", "Products");
+            }
+
+            var orders = _context.Orders
+                .Include(o => o.Customer)
+                .ToList();
+            return View(orders);
+        }
+        [HttpPost]
+        public IActionResult UpdateOrderStatus(int orderId, string status)
+        {
+            var order = _context.Orders.Find(orderId);
+            if (order != null)
+            {
+                order.OrderStatus = status;
+                _context.SaveChanges();
+            }
+            return RedirectToAction("OrderStatistics");
         }
     }
 }

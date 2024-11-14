@@ -2,6 +2,7 @@
 {
     public class Cart
     {
+
         public int Id { get; set; }
         public string CustomerId { get; set; }  // Đảm bảo đây là CustomerId duy nhất
         public List<CartItem> CartItems { get; set; }
