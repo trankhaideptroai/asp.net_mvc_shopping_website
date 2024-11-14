@@ -4,165 +4,56 @@
 
 <h1>Quản lý hệ thống</h1>
 
-<!-- Quản lý khách hàng -->
-<h2>Quản lý Khách Hàng</h2>
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Tên đăng nhập</th>
-            <th>Email</th>
-            <th>Vai trò</th>
-            <th>Hành động</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var customer in ViewBag.Customers)
-        {
-            <tr>
-                <td>@customer.Id</td>
-                <td>@customer.Username</td>
-                <td>@customer.Email</td>
-                <td>@customer.Role</td>
-                <td>
-                    <a asp-action="CreateCustomer" class="btn btn-success">Thêm Khách Hàng</a>
-                    <a href="@Url.Action("EditCustomer", "Admin", new { id = customer.Id })" class="btn btn-sm btn-warning">Sửa</a>
-                    <a href="@Url.Action("DeleteCustomer", "Admin", new { id = customer.Id })" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa khách hàng này?')">Xóa</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+<!-- Toggle Buttons -->
+<div class="btn-group" role="group" aria-label="Dashboard Navigation">
+    <button id="showCustomerManagement" class="btn btn-primary">Quản lý Khách Hàng</button>
+    <button id="showProductManagement" class="btn btn-secondary">Quản lý Sản Phẩm</button>
+</div>
 
-<!-- Quản lý sản phẩm -->
-<h2>Quản lý Sản Phẩm</h2>
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Tên sản phẩm</th>
-            <th>Giá</th>
-            <th>Màu sắc</th>
-            <th>Kích cỡ</th>
-            <th>Ảnh</th>
-            <th>Hành động</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var product in ViewBag.Products)
-        {
-            <tr>
-                <td>@product.Id</td>
-                <td>@product.Name</td>
-                <td>@product.Price</td>
-                <td>@product.Color</td>
-                <td>@product.Size</td>
-                <td>
-                    @if (!string.IsNullOrEmpty(product.Image))
-                    {
-                        <img src="@product.Image" alt="Sản phẩm" style="width:100px; height:100px;" />
-                    }
-                </td>
-                <td>
-                    <a asp-action="CreateProduct" class="btn btn-success">Thêm Sản Phẩm</a>
-                    <a href="@Url.Action("EditProduct", "Admin", new { id = product.Id })" class="btn btn-sm btn-warning">Sửa</a>
-                    <a href="@Url.Action("DeleteProduct", "Admin", new { id = product.Id })" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này?')">Xóa</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-<style>    /* General styling for the dashboard */
-    h1 {
-        text-align: center;
-        font-size: 32px;
-        color: #333;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
+<!-- AJAX Content Area -->
+<div id="contentArea">
+    <!-- Customer Management Content will load here initially -->
+</div>
 
-    h2 {
-        font-size: 24px;
-        color: #007bff;
-        margin-top: 30px;
-        margin-bottom: 15px;
-    }
+@section Scripts {
+    <script>
+        // Load Customer Management by default
+        $(document).ready(function () {
+            loadCustomerManagement();
+        });
 
-    /* Table styling */
-    .table {
-        width: 100%;
-        margin-top: 10px;
-        border-collapse: collapse;
-        font-size: 16px;
-    }
+        // Event handler to load Customer Management
+        $('#showCustomerManagement').click(function () {
+            loadCustomerManagement();
+        });
 
-        .table thead th {
-            background-color: #007bff;
-            color: white;
-            padding: 10px;
-            text-align: left;
+        // Event handler to load Product Management
+        $('#showProductManagement').click(function () {
+            loadProductManagement();
+        });
+
+        function loadCustomerManagement() {
+            $.ajax({
+                url: '@Url.Action("LoadCustomerManagement", "Admin")',
+                type: 'GET',
+                success: function (data) {
+                    $('#contentArea').html(data);
+                    $('#showCustomerManagement').addClass('btn-primary').removeClass('btn-secondary');
+                    $('#showProductManagement').addClass('btn-secondary').removeClass('btn-primary');
+                }
+            });
         }
 
-        .table tbody tr:nth-child(even) {
-            background-color: #f9f9f9;
+        function loadProductManagement() {
+            $.ajax({
+                url: '@Url.Action("LoadProductManagement", "Admin")',
+                type: 'GET',
+                success: function (data) {
+                    $('#contentArea').html(data);
+                    $('#showProductManagement').addClass('btn-primary').removeClass('btn-secondary');
+                    $('#showCustomerManagement').addClass('btn-secondary').removeClass('btn-primary');
+                }
+            });
         }
-
-        .table tbody tr:hover {
-            background-color: #f1f1f1;
-        }
-
-        .table td, .table th {
-            padding: 12px;
-            border-bottom: 1px solid #ddd;
-            vertical-align: middle;
-        }
-
-        /* Image styling */
-        .table img {
-            border-radius: 4px;
-            border: 1px solid #ddd;
-        }
-
-    /* Button styling */
-    .btn {
-        padding: 8px 12px;
-        font-size: 14px;
-        border-radius: 4px;
-        color: white;
-        text-decoration: none;
-        margin-right: 5px;
-    }
-
-    .btn-success {
-        background-color: #28a745;
-        border: none;
-    }
-
-        .btn-success:hover {
-            background-color: #218838;
-        }
-
-    .btn-warning {
-        background-color: #ffc107;
-        border: none;
-    }
-
-        .btn-warning:hover {
-            background-color: #e0a800;
-        }
-
-    .btn-danger {
-        background-color: #dc3545;
-        border: none;
-    }
-
-        .btn-danger:hover {
-            background-color: #c82333;
-        }
-
-        /* Confirmation message for delete buttons */
-        .btn-danger[onclick]:hover {
-            cursor: pointer;
-            color: white;
-        }
-</style>
+    </script>
+}

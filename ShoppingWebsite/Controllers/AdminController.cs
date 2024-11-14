@@ -206,6 +206,17 @@ namespace ShoppingWebsite.Controllers
             }
             return RedirectToAction("OrderStatistics");
         }
+        public IActionResult LoadCustomerManagement()
+        {
+            var customers = _context.Customers.ToList();
+            return PartialView("_CustomerManagement", customers);
+        }
+
+        public IActionResult LoadProductManagement()
+        {
+            var products = _context.Products.ToList();
+            return PartialView("_ProductManagement", products);
+        }
 
     }
 }
