@@ -19,7 +19,7 @@
                 <td>@item.ProductName</td>
                 <td>@item.Price.ToString("C")</td> <!-- Display price as currency -->
                 <td>
-                    <input class="quantity-input" type="number" value="@item.Quantity" min="1" onchange="updateCart(@item.ProductId, this.value)" />
+                    <span>@item.Quantity</span>
                 </td>
                 <td class="total-price">@((item.Price * item.Quantity).ToString("C"))</td> <!-- Display total as currency -->
                 <td>

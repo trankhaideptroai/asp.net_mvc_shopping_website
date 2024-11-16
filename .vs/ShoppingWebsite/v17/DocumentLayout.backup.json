@@ -3,12 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\cart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\cart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\admin\\createcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\admin\\createcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\admin\\_productmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\admin\\_productmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\admin\\_customermanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\admin\\editcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -37,18 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\admin\\orderstatistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\admin\\orderstatistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\cart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\cart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -75,14 +111,6 @@
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -91,20 +119,8 @@
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\admin\\customerlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\admin\\createcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\admin\\createcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\models\\cartdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,10 +147,6 @@
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\admin\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\admin\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -151,10 +163,6 @@
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -169,14 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|solutionrelative:shoppingwebsite\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC89493-3D52-4CFA-B8AA-1AA6434834D8}|ShoppingWebsite\\ShoppingWebsite.csproj|c:\\users\\trankhai\\documents\\github\\asp.net_mvc_shopping_website\\shoppingwebsite\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -202,135 +202,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_CustomerManagement.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\_CustomerManagement.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\_CustomerManagement.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\_CustomerManagement.cshtml*",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\_CustomerManagement.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T12:17:19.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_ProductManagement.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\_ProductManagement.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\_ProductManagement.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\_ProductManagement.cshtml*",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\_ProductManagement.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T12:17:10.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderStatistics.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\OrderStatistics.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\OrderStatistics.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\OrderStatistics.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\OrderStatistics.cshtml",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAwGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T05:27:23.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EditCustomer.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\EditCustomer.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\EditCustomer.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\EditCustomer.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\EditCustomer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T10:27:06.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T07:46:57.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T18:25:51.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\AdminController.cs*",
-              "RelativeToolTip": "ShoppingWebsite\\Controllers\\AdminController.cs*",
-              "ViewState": "AgIAALoAAAAAAAAAAAAiwNsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T18:15:23.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Checkout.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Cart\\Checkout.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Cart\\Checkout.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Cart\\Checkout.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Cart\\Checkout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T15:55:40.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\CartController.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA3wJ4AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\CartController.cs*",
+              "RelativeToolTip": "ShoppingWebsite\\Controllers\\CartController.cs*",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAQwLcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T18:15:14.105Z"
+              "WhenOpened": "2024-10-11T18:15:14.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Cart\\Index.cshtml*",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Cart\\Index.cshtml*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T18:17:10.45Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\Index.cshtml*",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\Index.cshtml*",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T08:33:06.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "OrderSuccess.cshtml",
               "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Cart\\OrderSuccess.cshtml",
               "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Cart\\OrderSuccess.cshtml",
@@ -338,191 +240,51 @@
               "RelativeToolTip": "ShoppingWebsite\\Views\\Cart\\OrderSuccess.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T15:56:03.038Z"
+              "WhenOpened": "2024-10-14T15:56:03.038Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T18:17:10.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EditProduct.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\EditProduct.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\EditProduct.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\EditProduct.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\EditProduct.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T10:27:20.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProductList.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\ProductList.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\ProductList.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\ProductList.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\ProductList.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAQwIEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T12:29:08.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAuwF8AAAAmAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T18:14:38.272Z"
+              "WhenOpened": "2024-10-11T18:15:03.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\Order.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Models\\Order.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T04:55:36.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\OrderDetail.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\OrderDetail.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Models\\OrderDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T04:56:50.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T18:13:42.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Products\\Index.cshtml",
               "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "ShoppingWebsite\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T18:16:26.046Z"
+              "WhenOpened": "2024-10-11T18:16:26.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABCAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T12:23:26.622Z"
+              "WhenOpened": "2024-10-14T15:55:40.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CustomerList.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CustomerList.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\CustomerList.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CustomerList.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\CustomerList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T12:09:09.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\Cart.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\Cart.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Models\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T18:14:22.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Products\\Details.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Products\\Details.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Products\\Details.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Products\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T18:16:35.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\CartItem.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T16:02:51.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CartDetail.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\CartDetail.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\CartDetail.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\CartDetail.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Models\\CartDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T18:14:30.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CreateCustomer.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CreateCustomer.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\CreateCustomer.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CreateCustomer.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\CreateCustomer.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAMwB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T10:29:50.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 6,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Account\\Login.cshtml",
@@ -534,127 +296,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\CartItem.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T09:34:35.202Z"
+              "WhenOpened": "2024-10-13T16:02:51.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "ShoppingWebsite\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-12T11:59:32.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\AccountController.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\AccountController.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\AccountController.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Models\\AccountController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAApwFAAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Program.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Program.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Program.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:15:21.507Z"
+              "WhenOpened": "2024-10-11T18:17:25.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CreateProduct.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CreateProduct.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\CreateProduct.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CreateProduct.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\CreateProduct.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCoAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "CreateCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CreateCustomer.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\CreateCustomer.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CreateCustomer.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\CreateCustomer.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T10:30:05.969Z"
+              "WhenOpened": "2024-10-14T10:29:50.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "ShoppingWebsite\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-13T18:04:00.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-13T18:12:49.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T18:15:03.971Z"
+              "WhenOpened": "2024-11-14T07:46:57.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T11:57:27.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\appsettings.json",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\appsettings.json",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\appsettings.json",
-              "RelativeToolTip": "ShoppingWebsite\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-11T18:13:21.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T18:15:56.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 10,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\Product.cs",
@@ -666,7 +356,343 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ProductManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\_ProductManagement.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\_ProductManagement.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\_ProductManagement.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\_ProductManagement.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T12:17:10.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T12:23:26.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T09:37:54.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_CustomerManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\_CustomerManagement.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\_CustomerManagement.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\_CustomerManagement.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\_CustomerManagement.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T12:17:19.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAUwNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T18:15:23.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\EditCustomer.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\EditCustomer.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\EditCustomer.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\EditCustomer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T10:27:06.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderStatistics.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\OrderStatistics.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\OrderStatistics.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\OrderStatistics.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\OrderStatistics.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T05:27:23.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T18:25:51.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T08:33:06.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\EditProduct.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\EditProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T10:27:20.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\ProductList.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\ProductList.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\ProductList.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAQwIEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T12:29:08.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAuwF8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T18:14:38.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\Order.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Models\\Order.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T04:55:36.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T04:56:50.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T18:13:42.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CustomerList.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CustomerList.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\CustomerList.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CustomerList.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\CustomerList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T12:09:09.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\Cart.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T18:14:22.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T18:16:35.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CartDetail.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\CartDetail.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\CartDetail.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\CartDetail.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Models\\CartDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T18:14:30.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T09:34:35.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ShoppingWebsite\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-12T11:59:32.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\AccountController.cs",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\AccountController.cs",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\AccountController.cs",
+              "RelativeToolTip": "ShoppingWebsite\\Models\\AccountController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAApwFAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:15:21.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CreateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CreateProduct.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Admin\\CreateProduct.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Admin\\CreateProduct.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Admin\\CreateProduct.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T10:30:05.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ShoppingWebsite\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-13T18:04:00.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-13T18:12:49.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T11:57:27.948Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\appsettings.json",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\appsettings.json",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\appsettings.json",
+              "RelativeToolTip": "ShoppingWebsite\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-11T18:13:21.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ShoppingWebsite\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T18:15:56.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\ErrorViewModel.cs",
@@ -678,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\Customer.cs",
@@ -690,7 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Models\\Category.cs",
               "RelativeDocumentMoniker": "ShoppingWebsite\\Models\\Category.cs",
@@ -702,7 +728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Home\\Privacy.cshtml",
@@ -723,30 +749,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T10:33:38.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Program.cs",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Program.cs",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Program.cs",
-              "RelativeToolTip": "ShoppingWebsite\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T18:17:25.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "ShoppingWebsite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\TranKhai\\Documents\\GitHub\\asp.net_mvc_shopping_website\\ShoppingWebsite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "ShoppingWebsite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T09:37:54.946Z"
             },
             {
               "$type": "Document",

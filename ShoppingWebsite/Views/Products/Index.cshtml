@@ -1,8 +1,15 @@
 ﻿@model IEnumerable<ShoppingWebsite.Models.Product>
 <h1>Sản phẩm</h1>
 <form>
+    <select name="sortOrder" onchange="this.form.submit()">
+        <option value="">Sắp xếp</option>
+        <option value="price_asc">Giá tăng dần</option>
+        <option value="price_desc">Giá giảm dần</option>
+    </select>
     <input type="text" name="searchString" placeholder="Tìm kiếm..." />
     <button type="submit">Tìm kiếm</button>
+
+
 </form>
 
 <div class="product-container">
@@ -119,5 +126,42 @@
         /* Button hover effect */
         .btn-primary:hover, .btn-secondary:hover {
             opacity: 0.8;
+        }
+
+    select {
+        width: 200px; /* Chiều rộng của dropdown */
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: #f9f9f9; /* Màu nền */
+        font-size: 16px;
+        color: #333; /* Màu chữ */
+        appearance: none; /* Xóa kiểu mặc định của trình duyệt */
+        cursor: pointer;
+    }
+
+        /* Hover và focus cho dropdown */
+        select:hover {
+            border-color: #007bff; /* Đổi màu viền khi hover */
+        }
+
+        select:focus {
+            outline: none; /* Xóa border xanh của trình duyệt */
+            border-color: #007bff;
+            box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Hiệu ứng ánh sáng khi focus */
+        }
+
+    /* Các tùy chọn bên trong dropdown */
+    option {
+        font-size: 16px;
+        padding: 10px; /* Khoảng cách bên trong mỗi tùy chọn */
+        color: #333;
+        background-color: #fff;
+    }
+
+        /* Khi di chuột qua một option */
+        option:hover {
+            background-color: #007bff; /* Màu nền khi hover */
+            color: #fff; /* Màu chữ khi hover */
         }
 </style>
