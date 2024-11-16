@@ -181,6 +181,39 @@ public class CartController : Controller
         // Nếu có lỗi trong dữ liệu nhập, hiển thị lại trang checkout với lỗi
         return View("Checkout", customer);
     }
+    [HttpPost]
+    public IActionResult UpdateCart(int productId, int quantity)
+    {
+        if (quantity < 1)
+        {
+            return BadRequest("Số lượng không thể nhỏ hơn 1."); // Trả về lỗi nếu số lượng không hợp lệ
+        }
+
+        var cart = GetCart(); // Lấy giỏ hàng từ session
+        var cartItem = cart.SingleOrDefault(c => c.ProductId == productId);
+
+        if (cartItem != null)
+        {
+            cartItem.Quantity = quantity; // Cập nhật số lượng
+        }
+        else
+        {
+            return NotFound("Sản phẩm không tồn tại trong giỏ hàng.");
+        }
+
+        SaveCart(cart); // Lưu giỏ hàng cập nhật vào session
+
+        // Tính lại tổng tiền sản phẩm và tổng giỏ hàng
+        var newTotalPrice = cartItem.Price * cartItem.Quantity;
+        var cartTotal = cart.Sum(c => c.Price * c.Quantity);
+
+        return Json(new
+        {
+            newQuantity = cartItem.Quantity,
+            newTotalPrice = newTotalPrice.ToString("C"),
+            cartTotal = cartTotal.ToString("C")
+        });
+    }
 
 
     public IActionResult OrderSuccess()
